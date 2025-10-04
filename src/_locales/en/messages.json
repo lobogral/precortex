@@ -1,0 +1,126 @@
+{
+  "name": { "message": "PreCortex" },
+  "description": { "message": "This is a program developed to add multiple layers to the prefrontal cortex." },
+  "default_title": { "message": "Stay focused" },
+  "activatedCheck": { "message": "Activated" },
+  "uiDescription": { "message": "Description" },
+  "uiHowToUse": { "message": "Instructions" },
+  "defaultCheck": { "message": "Default Rules" },
+  "updateButton": { "message": "Update" },
+  "outputText": {
+    "message": "Saved Rules: $ruleslength$",
+    "placeholders": {
+      "ruleslength": {
+        "content": "$1",
+        "example": "0"
+      }
+    }
+  },
+
+
+  "popupSeeButton": {"message": "See Cortices"},
+  "popupActiveButton": {"message": "Active/Deactivate Cortices"},
+  "popupFileButton": {"message": "Download/Upload Rules"},
+  "optionsAlertMessage": {"message": "There are not active cortices"},
+
+
+  "fileDownloadButton":  {"message": "Download"},
+  "fileDownloadText":  {"message": "Download File"},
+  "fileUploadButton":  {"message": "Upload"},
+  "fileUploadText":  {"message": "Upload File"},
+  "fileNameRules": {"message": "Rules"},
+
+
+  "whiteListName": { "message": "Whitelist" },
+  "whiteListDescription": { "message": "Allows the websites the user chooses, and their corresponding subdomains; everything else will be blocked." },
+  "whiteListHowToUse": { "message": "To add websites to the Whitelist, enter the domain (if desired, comments with the '>>' separator) in the input field and click the Update button." },
+
+
+  "grayStyleName": { "message": "Gray Style" },
+  "grayStyleDescription": { "message": "Prevents color-based distractions from selected websites." },
+  "grayStyleHowToUse": { "message": "To add web pages to the Gray Style, enter fixed style domains using the '>> Fixed' separator, variable style domains using the '>> Mutation' separator, or URL fragments for exceptions using the '>> Exception' separator in the input field and click the Update button." },
+
+
+  "limitScrollingName": { "message": "Limit Scrolling" },
+  "limitScrollingDescription": { "message": "Warns when scrolling exceeds the number of items." },
+  "limitScrollingHowToUse": { "message": "To add web pages to Limit Scrolling, enter maximum, counter, the domain or subdomain, the element type (videos, images, etc.), and if the domain or subdomain is in regex an R, with the separator '>> Limit' or URL fragments for exceptions with the separator '>> Exception' in the input field and click the Update button." },
+  "messageNoticeAlert": {
+    "message": "Available $available$ $typeElement$.",
+    "placeholders": {
+      "available": {
+        "content": "$1",
+        "example": "4"
+      },
+      "typeElement": {
+        "content": "$2",
+        "example": "video(s)"
+      }
+    }
+  },
+  "messageClosingAlert": {
+    "message": "No $typeElement$ available.",
+    "placeholders": {
+      "typeElement": {
+        "content": "$1",
+        "example": "video(s)"
+      }
+    }
+  },
+
+
+  "notRecommendationName": { "message": "No Recommendation" },
+  "notRecommendationDescription": { "message": "Prevents distractions from recommendations." },
+  "notRecommendationHowToUse": { "message": "To add web pages to No Recommendation, enter the redirect url prefixed with '--' and the condition urls with the '>> Redirect' separator, or the site url prefixed with '--' and its xpaths with the '>> XPath' separator in the input field, and click the Update button." },
+
+
+  "limitImmersionName": { "message": "Limit Immersion" },
+  "limitImmersionDescription": { "message": "Prevents distractions from spending too much time on selected websites." },
+  "limitImmersionHowToUse": { "message": "To add web pages to Limit Immersion, enter domains with the '>> Limit' separator, waiting minutes with the '>> Waiting' separator, grace minutes with the '>> Grace' separator, and URL fragments for exceptions with the '>> Exception' separator in the input field and click the Update button." },
+  "messageTitleNotification": {
+    "message": "Tab advise"
+  },
+  "messageNoticeNotification": {
+    "message": "You have been $waiting$ minutes with the tab $tabTitle$ open, duplicate the tab or in $grace$ minutes it closes.",
+    "placeholders": {
+      "waiting": {
+        "content": "$1",
+        "example": "20"
+      },
+      "tabTitle": {
+        "content": "$2",
+        "example": "Youtube Video"
+      },
+      "grace": {
+        "content": "$3",
+        "example": "5"
+      }
+    }
+  },
+  "messageClosingNotification": {
+    "message": "Tab $tabTitle$ closed.",
+    "placeholders": {
+      "tabTitle": {
+        "content": "$1",
+        "example": "Youtube Video"
+      }
+    }
+  },
+
+
+  "notContentName": { "message": "No Content" },
+  "notContentDescription": { "message": "Prevents unwanted content from visiting a website." },
+  "notContentHowToUse": { "message": "To add web pages to No Content, enter the '--' separator, the content URL, the redirect URL, and the corresponding xpaths in the input field, and click the Update button." },
+
+
+  "notClipboardName": { "message": "No Clipboard" },
+  "notClipboardDescription": { "message": "Prevents accidents when using the keyboard shortcuts: Cut, Copy, Paste, and Enter." },
+  "notClipboardHowToUse": { "message": "To add web pages to No Clipboard, enter the domain and click the Update button." },
+
+
+  "limitClickName": { "message": "Limit Click" },
+  "limitClickDescription": { "message": "Gives a confirmation message when clicking." },
+  "limitClickHowToUse": { "message": "To add web pages to Limit Click, enter --, followed by the domain with the corresponding xpaths, and click the Update button." },
+  "messageClick": { "message": "¿Desea cancelar el clic?" }
+
+
+}

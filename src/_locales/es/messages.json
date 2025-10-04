@@ -1,0 +1,126 @@
+{
+  "name": { "message": "PreCortex" },
+  "description": { "message": "Este es un programa desarrollado para agregar varias capas a la corteza prefrontal." },
+  "default_title": { "message": "Mantente enfocado" },
+  "activatedCheck": { "message": "Activado" },
+  "uiDescription": { "message": "Descripción" },
+  "uiHowToUse": { "message": "Instrucciones" },
+  "defaultCheck": { "message": "Reglas por defecto" },
+  "updateButton": { "message": "Actualizar" },
+  "outputText": {
+    "message": "Reglas guardadas: $ruleslength$",
+    "placeholders": {
+      "ruleslength": {
+        "content": "$1",
+        "example": "0"
+      }
+    }
+  },
+
+
+  "popupSeeButton": {"message": "Ver Cortezas"},
+  "popupActiveButton": {"message": "Activar/Desactivar Cortezas"},
+  "popupFileButton": {"message": "Descargar/Cargar Reglas"},
+  "optionsAlertMessage": {"message": "No hay cortezas activas"},
+
+
+  "fileDownloadButton":  {"message": "Descargar"},
+  "fileDownloadText":  {"message": "Descargar Archivo"},
+  "fileUploadButton":  {"message": "Subir"},
+  "fileUploadText":  {"message": "Subir Archivo"},
+  "fileNameRules": {"message": "Reglas"},
+
+
+  "whiteListName": { "message": "Lista Blanca" },
+  "whiteListDescription": { "message": "Permite las páginas web que escoja el usuario, y sus correspondientes subdominios, todo lo demás será bloqueado." },
+  "whiteListHowToUse": { "message": "Para agregar páginas web a la lista blanca, ingrese el dominio (si se desea comentarios con el separador '>>') en el campo de entrada y haga clic en el botón Actualizar." },
+
+
+  "grayStyleName": { "message": "Estilo Gris" },
+  "grayStyleDescription": { "message": "Evita las distracciones por colores de las páginas web seleccionadas." },
+  "grayStyleHowToUse": { "message": "Para agregar páginas web al estilo gris, ingrese dominios fijos con style usando el separador '>> Fixed', dominios variables con style usando el separador '>> Mutation', o fragmentos de URLs para excepciones usando el separador '>> Exception' en el campo de entrada y haga clic en el botón Actualizar." },
+
+
+  "limitScrollingName": { "message": "Limitar Scrolling" },
+  "limitScrollingDescription": { "message": "Avisa cuando se pasa el número de elementos al hacer Scrolling." },
+  "limitScrollingHowToUse": { "message": "Para agregar páginas web limitar scrolling, ingrese máximo, contador, el dominio o subdominio, el tipo de elemento (videos, imágenes, etc.), y si el dominio o subdominio está en regex una R, con el separador '>> Limit' o fragmentos de URLs para excepciones con el separador '>> Exception' en el campo de entrada y haga clic en el botón Actualizar." },
+  "messageNoticeAlert": {
+    "message": "Disponible $available$ $typeElement$.",
+    "placeholders": {
+      "available": {
+        "content": "$1",
+        "example": "4"
+      },
+      "typeElement": {
+        "content": "$2",
+        "example": "video(s)"
+      }
+    }
+  },
+  "messageClosingAlert": {
+    "message": "No hay $typeElement$ disponible.",
+    "placeholders": {
+      "typeElement": {
+        "content": "$1",
+        "example": "video(s)"
+      }
+    }
+  },
+
+
+  "notRecommendationName": { "message": "No Recomendación" },
+  "notRecommendationDescription": { "message": "Evita las distracciones por recomendaciones." },
+  "notRecommendationHowToUse": { "message": "Para agregar páginas web a no recomendación, ingrese la url de redirección con prefijo '--' y las urls condiciones con el separador '>> Redirect', o la url del sitio con prefijo '--' y sus xpaths con el separador '>> XPath' en el campo de entrada, y haga clic en el botón Actualizar." },
+
+
+  "limitImmersionName": { "message": "Limitar Inmersión" },
+  "limitImmersionDescription": { "message": "Evita las distracciones por estar mucho tiempo en páginas web seleccionadas." },
+  "limitImmersionHowToUse": { "message": "Para agregar páginas web a limitar inmersión, ingrese dominios con el separador '>> Limit', los minutos de espera con el separador '>> Waiting', los minutos de gracia con el separador '>> Grace', y fragmentos de URLs para excepciones con el separador '>> Exception' en el campo de entrada y haga clic en el botón Actualizar." },
+  "messageTitleNotification": {
+    "message": "Aviso de pestaña"
+  },
+  "messageNoticeNotification": {
+    "message": "Lleva $waiting$ minutos con la pestaña $tabTitle$ abierta, duplique la pestaña o en $grace$ minutos se cierra.",
+    "placeholders": {
+      "waiting": {
+        "content": "$1",
+        "example": "20"
+      },
+      "tabTitle": {
+        "content": "$2",
+        "example": "Video de youtube"
+      },
+      "grace": {
+        "content": "$3",
+        "example": "5"
+      }
+    }
+  },
+  "messageClosingNotification": {
+    "message": "Pestaña $tabTitle$ cerrada.",
+    "placeholders": {
+      "tabTitle": {
+        "content": "$1",
+        "example": "Video de youtube"
+      }
+    }
+  },
+
+
+  "notContentName": { "message": "No Contenido" },
+  "notContentDescription": { "message": "Evita el contenido no deseado por ir a un sitio web." },
+  "notContentHowToUse": { "message": "Para agregar páginas web a no contenido, ingrese el separador '--', la url de contenido, la url de redirección, los correspondientes xpaths en el campo de entrada, y haga clic en el botón Actualizar." },
+
+
+  "notClipboardName": { "message": "No portapapeles" },
+  "notClipboardDescription": { "message": "Evita accidentes al usar las combinaciones del teclado: Cortar, Copiar, Pegar y Enter." },
+  "notClipboardHowToUse": { "message": "Para agregar páginas web a no portapapeles, ingrese el dominio, y haga clic en el botón Actualizar." },
+
+
+  "limitClickName": { "message": "Limitar Clic" },
+  "limitClickDescription": { "message": "Da un mensaje de confimación al hacer clic." },
+  "limitClickHowToUse": { "message": "Para agregar páginas web limitar envío, ingrese --, seguido del dominio con los xpaths correspondientes, y haga clic en el botón Actualizar." },
+  "messageClick": { "message": "¿Desea cancelar el clic?" }
+
+
+}

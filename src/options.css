@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  height: 100vh;
+}
+
+.sidenav {
+  height: 100%;
+  width: 220px;
+  padding-top: 20px;
+  background-color: #111;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+
+.sidenav a {
+  padding: 12px 20px;
+  margin: 6px 10px;
+  border-radius: 4px;
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+.sidenav a:hover {
+  background-color: #555;
+}
+
+.sidenav a.active {
+  background-color: #724f4a;
+}
+
+.main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #ddd;
+}
+
+h1 {
+  margin: 0px;
+  color: #724f4a;
+}
+
+h2 {
+  font-weight: normal;
+  color: #555;
+}
+
+textarea {
+  flex-grow: 1;
+  color: #555;
+  background-color: #fafafa;
+  border: 1px solid #888;
+  box-sizing: border-box;
+}
+
+textarea:disabled {
+  background-color: #f0f0f0;
+}
+
+span {
+  display: block;
+  font-size: 15px;
+  color: #555;
+  text-align: center;
+  margin: 10px 0px 10px 0px;
+}
+
+label {
+  margin: 0px 0px 20px 0px;
+  text-align: left;
+  color: #555;
+  font-size: 15px;
+}
+
+input {
+  transform: scale(1.3);
+  margin-right: 8px;
+  accent-color: #724f4a;
+}
+
+button {
+  height: 35px;
+  font-size: 15px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  background-color: #724f4a;
+}
+
+button:hover {
+  height: 35px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  background-color: #555;
+}
