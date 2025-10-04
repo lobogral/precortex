@@ -24,7 +24,7 @@ It can be considered a way for the user to increase browser control over any typ
 
 ## Do you have practical examples?
 
-These are the default rules, within the **See Cortex** menu, when you click the extension icon.
+These are the default rules, within the **See Cortices** menu, when you click the extension icon.
 
 ## How to further your knowledge of the tool?
 
